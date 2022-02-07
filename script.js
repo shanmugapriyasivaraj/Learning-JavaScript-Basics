@@ -1,10 +1,8 @@
-let name = "priya";
-let msg = " My name is " + name + " I'm learning JavaScript";
-alert(msg);
-console.log(msg);
-
-let number1 = 40;
-let number2 = 65;
-
-let result = number1 + number2;
-console.log(result);
+let firstName = "Anu";
+let age = 20;
+let lastName;
+let trophy = null;
+console.log(typeof firstName);
+console.log(typeof age);
+console.log(typeof lastName);
+console.log(typeof trophy);
