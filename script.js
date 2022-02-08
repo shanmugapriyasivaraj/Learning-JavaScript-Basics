@@ -76,24 +76,34 @@
 
 // console.log(y);
 
-// Comparison operator
-// Relational Operators
+// // Comparison operator
+// // Relational Operators
 
-let x = 15;
+// let x = 15;
 
-console.log(x < 15); //less than
-console.log(x <= 15); //less than or equal too
+// console.log(x < 15); //less than
+// console.log(x <= 15); //less than or equal too
 
-console.log(x > 15);
-console.log(x >= 15);
+// console.log(x > 15);
+// console.log(x >= 15);
 
-console.log(x === 15);
-console.log(x !== 15);
+// console.log(x === 15);
+// console.log(x !== 15);
 
-// String omparison
-console.log("priya" > "anu");
+// // String omparison
+// console.log("priya" > "anu");
 
-//comparison of different types
+// //comparison of different types
 
-console.log("1" < 5);
-console.log(true == 1);
+// console.log("1" < 5);
+// console.log(true == 1);
+
+// Equality Operator
+
+// strict equality operator
+console.log(1 === 1);
+console.log("1" === 1);
+
+// lose equality operator
+console.log(1 == 1);
+console.log("1" == 1);
