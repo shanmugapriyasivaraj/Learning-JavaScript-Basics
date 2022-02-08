@@ -118,15 +118,22 @@
 
 // Logical Operator
 
-let highIncome = true;
-let CIBILscore = true;
-// logical AND
+// let highIncome = true;
+// let CIBILscore = true;
+// // logical AND
 
-let eligiblePerson = highIncome && CIBILscore;
+// let eligiblePerson = highIncome && CIBILscore;
 
-console.log(eligiblePerson);
+// console.log(eligiblePerson);
 
-// Logical OR
+// // Logical OR
 
-let eligiblePerson1 = highIncome || CIBILscore;
-console.log(eligiblePerson1);
+// let eligiblePerson1 = highIncome || CIBILscore;
+// console.log(eligiblePerson1);
+
+// operator with non bollean values
+let userColor = "Blue";
+let defaultColor = "Black";
+
+currentColor = userColor || defaultColor;
+console.log("selectedColor :" + currentColor);
