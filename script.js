@@ -61,17 +61,39 @@
 // console.log(number1--);
 // console.log(number1);
 
-// Assignment Operator
+// // Assignment Operator
 
-let x = 25;
+// let x = 25;
 
-// x = x + 5;
+// // x = x + 5;
 
-x += 20;
+// x += 20;
 
-console.log(x);
+// console.log(x);
 
-let y = 20;
-y -= 5;
+// let y = 20;
+// y -= 5;
 
-console.log(y);
+// console.log(y);
+
+// Comparison operator
+// Relational Operators
+
+let x = 15;
+
+console.log(x < 15); //less than
+console.log(x <= 15); //less than or equal too
+
+console.log(x > 15);
+console.log(x >= 15);
+
+console.log(x === 15);
+console.log(x !== 15);
+
+// String omparison
+console.log("priya" > "anu");
+
+//comparison of different types
+
+console.log("1" < 5);
+console.log(true == 1);
