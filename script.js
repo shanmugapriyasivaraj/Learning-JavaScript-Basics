@@ -36,27 +36,42 @@
 // div(254852, 528);
 
 // Arithmetic Operators
-let number1 = 10;
-let number2 = 15;
+// let number1 = 10;
+// let number2 = 15;
 
-console.log(number1 + number2);
-console.log(number1 - number2);
-console.log(number1 * number2);
-console.log(number1 / number2);
-console.log(number1 % number2);
-console.log(number1 ** number2);
+// console.log(number1 + number2);
+// console.log(number1 - number2);
+// console.log(number1 * number2);
+// console.log(number1 / number2);
+// console.log(number1 % number2);
+// console.log(number1 ** number2);
 
-// increment
-console.log(++number1);
-console.log(number1);
+// // increment
+// console.log(++number1);
+// console.log(number1);
 
-console.log(number1++);
-console.log(number1);
+// console.log(number1++);
+// console.log(number1);
 
-// Decrement
+// // Decrement
 
-console.log(--number1);
-console.log(number1);
+// console.log(--number1);
+// console.log(number1);
 
-console.log(number1--);
-console.log(number1);
+// console.log(number1--);
+// console.log(number1);
+
+// Assignment Operator
+
+let x = 25;
+
+// x = x + 5;
+
+x += 20;
+
+console.log(x);
+
+let y = 20;
+y -= 5;
+
+console.log(y);
