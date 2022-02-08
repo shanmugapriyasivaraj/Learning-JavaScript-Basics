@@ -98,12 +98,20 @@
 // console.log("1" < 5);
 // console.log(true == 1);
 
-// Equality Operator
+// // Equality Operator
 
-// strict equality operator
-console.log(1 === 1);
-console.log("1" === 1);
+// // strict equality operator
+// console.log(1 === 1);
+// console.log("1" === 1);
 
-// lose equality operator
-console.log(1 == 1);
-console.log("1" == 1);
+// // lose equality operator
+// console.log(1 == 1);
+// console.log("1" == 1);
+
+// Ternary Operator
+
+let age = 11;
+
+let type = age > 18 ? "Adult Ticket" : "Child Ticket";
+
+console.log(type);
