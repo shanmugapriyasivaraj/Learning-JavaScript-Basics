@@ -110,8 +110,23 @@
 
 // Ternary Operator
 
-let age = 11;
+// let age = 11;
 
-let type = age > 18 ? "Adult Ticket" : "Child Ticket";
+// let type = age > 18 ? "Adult Ticket" : "Child Ticket";
 
-console.log(type);
+// console.log(type);
+
+// Logical Operator
+
+let highIncome = true;
+let CIBILscore = true;
+// logical AND
+
+let eligiblePerson = highIncome && CIBILscore;
+
+console.log(eligiblePerson);
+
+// Logical OR
+
+let eligiblePerson1 = highIncome || CIBILscore;
+console.log(eligiblePerson1);
