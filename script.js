@@ -131,9 +131,24 @@
 // let eligiblePerson1 = highIncome || CIBILscore;
 // console.log(eligiblePerson1);
 
-// operator with non bollean values
-let userColor = "Blue";
-let defaultColor = "Black";
+// // operator with non bollean values
+// let userColor = "Blue";
+// let defaultColor = "Black";
 
-currentColor = userColor || defaultColor;
-console.log("selectedColor :" + currentColor);
+// currentColor = userColor || defaultColor;3
+// console.log("selectedColor :" + currentColor);
+
+// Bitwise Operators
+
+console.log(1 | 2);
+console.log(1 & 2);
+
+let readPermission = 4;
+let writePermission = 2;
+let executePermission = 1;
+
+let myPermission = 0;
+myPermission = myPermission | writePermission;
+
+let message = myPermission & readPermission ? "Yes" : "No";
+console.log(message);
