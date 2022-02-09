@@ -140,12 +140,12 @@
 
 // Bitwise Operators
 
-console.log(1 | 2);
-console.log(1 & 2);
+// console.log(1 | 2);
+// console.log(1 & 2);
 
-let readPermission = 4;
-let writePermission = 2;
-let executePermission = 1;
+const readPermission = 4;
+const writePermission = 2;
+const executePermission = 1;
 
 let myPermission = 0;
 myPermission = myPermission | writePermission;
