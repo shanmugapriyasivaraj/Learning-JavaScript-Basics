@@ -203,18 +203,35 @@
 //     console.log("Unknown grade");
 // }
 
-let amount = "4000";
+// let amount = "4000";
 
-switch (true) {
-  case amount > 10000:
-    console.log("Buy Android Mobile");
-    break;
-  case amount > 60000:
-    console.log("Buy iphone");
-    break;
-  case amount >= 5000 && amount <= 10000:
-    console, log("Buy Basic Mobile");
-    break;
-  default:
-    console.log("You can't afford Mobile phone now");
+// switch (true) {
+//   case amount > 10000:
+//     console.log("Buy Android Mobile");
+//     break;
+//   case amount > 60000:
+//     console.log("Buy iphone");
+//     break;
+//   case amount >= 5000 && amount <= 10000:
+//     console, log("Buy Basic Mobile");
+//     break;
+//   default:
+//     console.log("You can't afford Mobile phone now");
+// }
+
+// loop
+
+for (let i = 1; i <= 10; i++) {
+  console.log("Number= " + i);
+}
+
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 !== 0) {
+    console.log("Odd number", i);
+  }
+}
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) {
+    console.log("Even Number", i);
+  }
 }
