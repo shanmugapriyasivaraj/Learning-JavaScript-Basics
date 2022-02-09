@@ -155,8 +155,25 @@
 
 // Operator Precedence
 
-let x = 5 + 7 * 9;
-console.log(x);
+// let x = 5 + 7 * 9;
+// console.log(x);
 
-let y = (5 + 7) * 9;
-console.log(y);
+// let y = (5 + 7) * 9;
+// console.log(y);
+
+// if else
+let weather = "cold";
+
+if (weather === "cold") {
+  console.log("Weather is Cold");
+} else {
+  console.log("Weather is hot");
+}
+
+let isRaining = false;
+let isCloudy = false;
+if (isRaining || isCloudy) {
+  console.log("Don't forget to take umbrella");
+} else {
+  console.log("The weather is normal");
+}
