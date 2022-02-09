@@ -143,12 +143,20 @@
 // console.log(1 | 2);
 // console.log(1 & 2);
 
-const readPermission = 4;
-const writePermission = 2;
-const executePermission = 1;
+// const readPermission = 4;
+// const writePermission = 2;
+// const executePermission = 1;
 
-let myPermission = 0;
-myPermission = myPermission | writePermission;
+// let myPermission = 0;
+// myPermission = myPermission | writePermission;
 
-let message = myPermission & readPermission ? "Yes" : "No";
-console.log(message);
+// let message = myPermission & readPermission ? "Yes" : "No";
+// console.log(message);
+
+// Operator Precedence
+
+let x = 5 + 7 * 9;
+console.log(x);
+
+let y = (5 + 7) * 9;
+console.log(y);
