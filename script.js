@@ -136,69 +136,85 @@
 // let defaultColor = "Black";
 
 // currentColor = userColor || defaultColor;3
-// console.log("selectedColor :" + currentColor);
+// // console.log("selectedColor :" + currentColor);
 
-// Bitwise Operators
+// // Bitwise Operators
 
-// console.log(1 | 2);
-// console.log(1 & 2);
+// // console.log(1 | 2);
+// // console.log(1 & 2);
 
-// const readPermission = 4;
-// const writePermission = 2;
-// const executePermission = 1;
+// // const readPermission = 4;
+// // const writePermission = 2;
+// // const executePermission = 1;
 
-// let myPermission = 0;
-// myPermission = myPermission | writePermission;
+// // let myPermission = 0;
+// // myPermission = myPermission | writePermission;
 
-// let message = myPermission & readPermission ? "Yes" : "No";
-// console.log(message);
+// // let message = myPermission & readPermission ? "Yes" : "No";
+// // console.log(message);
 
-// Operator Precedence
+// // Operator Precedence
 
-// let x = 5 + 7 * 9;
-// console.log(x);
+// // let x = 5 + 7 * 9;
+// // console.log(x);
 
-// let y = (5 + 7) * 9;
-// console.log(y);
+// // let y = (5 + 7) * 9;
+// // console.log(y);
 
-// // if else
-// let weather = "cold";
+// // // if else
+// // let weather = "cold";
 
-// if (weather === "cold") {
-//   console.log("Weather is Cold");
-// } else {
-//   console.log("Weather is hot");
+// // if (weather === "cold") {
+// //   console.log("Weather is Cold");
+// // } else {
+// //   console.log("Weather is hot");
+// // }
+
+// // let isRaining = false;
+// // let isCloudy = false;
+// // if (isRaining || isCloudy) {
+// //   console.log("Don't forget to take umbrella");
+// // } else {
+// //   console.log("The weather is normal");
+// // }
+// // let hour = new Date().getHours();
+// // if (hour >= 0 && hour <= 12) {
+// //   console.log("Good Morning");
+// // } else if (hour <= 1 && hour >= 18) {
+// //   console.log("Good Afternoon");
+// // } else {
+// //   console.log("Good evening");
+// // }
+
+// // switch case
+// let grade = "A";
+
+// switch (grade) {
+//   case "S":
+//     console.log("Super grade");
+//     break;
+//   case "A":
+//     console.log("Excellent grade");
+//     break;
+//   case "U":
+//     console.log("Failed grade");
+//     break;
+//   default:
+//     console.log("Unknown grade");
 // }
 
-// let isRaining = false;
-// let isCloudy = false;
-// if (isRaining || isCloudy) {
-//   console.log("Don't forget to take umbrella");
-// } else {
-//   console.log("The weather is normal");
-// }
-// let hour = new Date().getHours();
-// if (hour >= 0 && hour <= 12) {
-//   console.log("Good Morning");
-// } else if (hour <= 1 && hour >= 18) {
-//   console.log("Good Afternoon");
-// } else {
-//   console.log("Good evening");
-// }
+let amount = "4000";
 
-// switch case
-let grade = "A";
-
-switch (grade) {
-  case "S":
-    console.log("Super grade");
+switch (true) {
+  case amount > 10000:
+    console.log("Buy Android Mobile");
     break;
-  case "A":
-    console.log("Excellent grade");
+  case amount > 60000:
+    console.log("Buy iphone");
     break;
-  case "U":
-    console.log("Failed grade");
+  case amount >= 5000 && amount <= 10000:
+    console, log("Buy Basic Mobile");
     break;
   default:
-    console.log("Unknown grade");
+    console.log("You can't afford Mobile phone now");
 }
