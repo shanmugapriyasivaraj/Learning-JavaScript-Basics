@@ -177,11 +177,28 @@
 // } else {
 //   console.log("The weather is normal");
 // }
-let hour = new Date().getHours();
-if (hour >= 0 && hour <= 12) {
-  console.log("Good Morning");
-} else if (hour <= 1 && hour >= 18) {
-  console.log("Good Afternoon");
-} else {
-  console.log("Good evening");
+// let hour = new Date().getHours();
+// if (hour >= 0 && hour <= 12) {
+//   console.log("Good Morning");
+// } else if (hour <= 1 && hour >= 18) {
+//   console.log("Good Afternoon");
+// } else {
+//   console.log("Good evening");
+// }
+
+// switch case
+let grade = "A";
+
+switch (grade) {
+  case "S":
+    console.log("Super grade");
+    break;
+  case "A":
+    console.log("Excellent grade");
+    break;
+  case "U":
+    console.log("Failed grade");
+    break;
+  default:
+    console.log("Unknown grade");
 }
