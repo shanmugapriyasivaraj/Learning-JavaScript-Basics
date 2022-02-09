@@ -161,19 +161,27 @@
 // let y = (5 + 7) * 9;
 // console.log(y);
 
-// if else
-let weather = "cold";
+// // if else
+// let weather = "cold";
 
-if (weather === "cold") {
-  console.log("Weather is Cold");
-} else {
-  console.log("Weather is hot");
-}
+// if (weather === "cold") {
+//   console.log("Weather is Cold");
+// } else {
+//   console.log("Weather is hot");
+// }
 
-let isRaining = false;
-let isCloudy = false;
-if (isRaining || isCloudy) {
-  console.log("Don't forget to take umbrella");
+// let isRaining = false;
+// let isCloudy = false;
+// if (isRaining || isCloudy) {
+//   console.log("Don't forget to take umbrella");
+// } else {
+//   console.log("The weather is normal");
+// }
+let hour = new Date().getHours();
+if (hour >= 0 && hour <= 12) {
+  console.log("Good Morning");
+} else if (hour <= 1 && hour >= 18) {
+  console.log("Good Afternoon");
 } else {
-  console.log("The weather is normal");
+  console.log("Good evening");
 }
