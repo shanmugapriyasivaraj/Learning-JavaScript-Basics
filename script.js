@@ -237,11 +237,19 @@
 // }
 
 // While Loop
-let i = 10;
+let i = 0;
 
-while (i >= 1) {
+// while (i <= 10) {
+//   if (i % 2 === 0) {
+//     console.log("Even Number", i);
+//   }
+//   i++;
+// }
+// Do while
+
+do {
   if (i % 2 === 0) {
-    console.log("Even Number", i);
+    console.log("even number", i);
   }
-  i--;
-}
+  i++;
+} while (i <= 10);
