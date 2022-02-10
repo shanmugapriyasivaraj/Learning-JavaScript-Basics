@@ -255,11 +255,18 @@
 // } while (i <= 10);}
 
 // for-in
-const person = {
-  name: "Priya",
-  age: 20,
-};
+// const person = {
+//   name: "Priya",
+//   age: 20,
+// };
 
-for (let key in person) {
-  console.log(key + ":", person[key]);
+// for (let key in person) {
+//   console.log(key + ":", person[key]);
+// }
+
+// for-Of
+let colors = ["red", "blue", "black"];
+
+for (let color of colors) {
+  console.log("color :" + color);
 }
