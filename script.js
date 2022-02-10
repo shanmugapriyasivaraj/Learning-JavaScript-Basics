@@ -159,9 +159,9 @@
 // // console.log(x);
 
 // // let y = (5 + 7) * 9;
-// // console.log(y);
+// console.log(y);  //108
 
-// // // if else
+//  if else
 // // let weather = "cold";
 
 // // if (weather === "cold") {
@@ -199,57 +199,67 @@
 //   case "U":
 //     console.log("Failed grade");
 //     break;
-//   default:
-//     console.log("Unknown grade");
-// }
+// //   default:
+// //     console.log("Unknown grade");
+// // }
 
-// let amount = "4000";
+// // let amount = "4000";
 
-// switch (true) {
-//   case amount > 10000:
-//     console.log("Buy Android Mobile");
-//     break;
-//   case amount > 60000:
-//     console.log("Buy iphone");
-//     break;
-//   case amount >= 5000 && amount <= 10000:
-//     console, log("Buy Basic Mobile");
-//     break;
-//   default:
-//     console.log("You can't afford Mobile phone now");
-// }
+// // switch (true) {
+// //   case amount > 10000:
+// //     console.log("Buy Android Mobile");
+// //     break;
+// //   case amount > 60000:
+// //     console.log("Buy iphone");
+// //     break;
+// //   case amount >= 5000 && amount <= 10000:
+// //     console, log("Buy Basic Mobile");
+// //     break;
+// //   default:
+// //     console.log("You can't afford Mobile phone now");
+// // }
 
-// // loop
+// // // loop
 
-// for (let i = 1; i <= 10; i++) {
-//   console.log("Number= " + i);
-// }
+// // for (let i = 1; i <= 10; i++) {
+// //   console.log("Number= " + i);
+// // }
 
-// for (let i = 1; i <= 10; i++) {
-//   if (i % 2 !== 0) {
-//     console.log("Odd number", i);
-//   }
-// }
-// for (let i = 1; i <= 10; i++) {
+// // for (let i = 1; i <= 10; i++) {
+// //   if (i % 2 !== 0) {
+// //     console.log("Odd number", i);
+// //   }
+// // }
+// // for (let i = 1; i <= 10; i++) {
+// //   if (i % 2 === 0) {
+// //     console.log("Even Number", i);
+// //   }
+// // }
+
+// // While Loop
+// let i = 0;
+
+// // while (i <= 10) {
+// //   if (i % 2 === 0) {
+// //     console.log("Even Number", i);
+// //   }
+// //   i++;
+// // }
+// // Do while
+
+// do {
 //   if (i % 2 === 0) {
-//     console.log("Even Number", i);
-//   }
-// }
-
-// While Loop
-let i = 0;
-
-// while (i <= 10) {
-//   if (i % 2 === 0) {
-//     console.log("Even Number", i);
+//     console.log("even number", i);
 //   }
 //   i++;
-// }
-// Do while
+// } while (i <= 10);}
 
-do {
-  if (i % 2 === 0) {
-    console.log("even number", i);
-  }
-  i++;
-} while (i <= 10);
+// for-in
+const person = {
+  name: "Priya",
+  age: 20,
+};
+
+for (let key in person) {
+  console.log(key + ":", person[key]);
+}
