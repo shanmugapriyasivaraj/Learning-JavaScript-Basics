@@ -219,19 +219,29 @@
 //     console.log("You can't afford Mobile phone now");
 // }
 
-// loop
+// // loop
 
-for (let i = 1; i <= 10; i++) {
-  console.log("Number= " + i);
-}
+// for (let i = 1; i <= 10; i++) {
+//   console.log("Number= " + i);
+// }
 
-for (let i = 1; i <= 10; i++) {
-  if (i % 2 !== 0) {
-    console.log("Odd number", i);
-  }
-}
-for (let i = 1; i <= 10; i++) {
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 !== 0) {
+//     console.log("Odd number", i);
+//   }
+// }
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     console.log("Even Number", i);
+//   }
+// }
+
+// While Loop
+let i = 10;
+
+while (i >= 1) {
   if (i % 2 === 0) {
     console.log("Even Number", i);
   }
+  i--;
 }
