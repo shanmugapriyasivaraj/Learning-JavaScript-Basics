@@ -264,9 +264,28 @@
 //   console.log(key + ":", person[key]);
 // }
 
-// for-Of
-let colors = ["red", "blue", "black"];
+// // for-Of
+// let colors = ["red", "blue", "black"];
 
-for (let color of colors) {
-  console.log("color :" + color);
-}
+// for (let color of colors) {
+//   console.log("color :" + color);
+// }
+
+// object
+
+let person = {
+  name: "Priya",
+  age: 20,
+  fvrtcolor: ["blue", "black", "Green"],
+  isAlive: true,
+  address: {
+    city: "Erode",
+    State: "TamilNadu",
+  },
+
+  greeting: function () {
+    let msg = `My name is ${this.name},My favrt color is ${this.fvrtcolor[1]}`;
+    console.log(msg);
+  },
+};
+person.greeting();
