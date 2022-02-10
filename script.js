@@ -291,14 +291,25 @@
 // person.greeting();
 // Factory function
 
-function createPerson(name) {
-  return {
-    name,
-    greeting() {
-      let msg = `My name is ${this.name}`;
-      console.log(msg);
-    },
+// function createPerson(name) {
+//   return {
+//     name,
+//     greeting() {
+//       let msg = `My name is ${this.name}`;
+//       console.log(msg);
+//     },
+//   };
+// }
+// let priya = createPerson("priya");
+// priya.greeting();
+
+// constructor function
+
+function Person(name) {
+  this.name = name;
+  this.greeting = function () {
+    console.log(`My name is ${this.name}`);
   };
 }
-let priya = createPerson("priya");
-priya.greeting();
+let person = new Person("Priya");
+person.greeting();
