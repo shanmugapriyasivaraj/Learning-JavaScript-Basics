@@ -273,19 +273,32 @@
 
 // object
 
-let person = {
-  name: "Priya",
-  age: 20,
-  fvrtcolor: ["blue", "black", "Green"],
-  isAlive: true,
-  address: {
-    city: "Erode",
-    State: "TamilNadu",
-  },
+// let person = {
+//   name: "Priya",
+//   age: 20,
+//   fvrtcolor: ["blue", "black", "Green"],
+//   isAlive: true,
+//   address: {
+//     city: "Erode",
+//     State: "TamilNadu",
+//   },
 
-  greeting: function () {
-    let msg = `My name is ${this.name},My favrt color is ${this.fvrtcolor[1]}`;
-    console.log(msg);
-  },
-};
-person.greeting();
+//   greeting: function () {
+//     let msg = `My name is ${this.name},My favrt color is ${this.fvrtcolor[1]}`;
+//     console.log(msg);
+//   },
+// };
+// person.greeting();
+// Factory function
+
+function createPerson(name) {
+  return {
+    name,
+    greeting() {
+      let msg = `My name is ${this.name}`;
+      console.log(msg);
+    },
+  };
+}
+let priya = createPerson("priya");
+priya.greeting();
