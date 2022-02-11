@@ -305,11 +305,23 @@
 
 // constructor function
 
-function Person(name) {
-  this.name = name;
-  this.greeting = function () {
-    console.log(`My name is ${this.name}`);
-  };
-}
-let person = new Person("Priya");
-person.greeting();
+// function Person(name) {
+//   this.name = name;
+//   this.greeting = function () {
+//     console.log(`My name is ${this.name}`);
+//   };
+// }
+// let person = new Person("Priya");
+// person.greeting();
+
+// Dynamic object
+
+const person = {
+  name: "Priya",
+};
+person.age = 20;
+person.greeting = function () {};
+
+delete person.greeting;
+delete person.age;
+console.log(person);
