@@ -316,12 +316,19 @@
 
 // Dynamic object
 
-const person = {
-  name: "Priya",
-};
-person.age = 20;
-person.greeting = function () {};
+// const person = {
+//   name: "Priya",
+// };
+// person.age = 20;
+// person.greeting = function () {};
 
-delete person.greeting;
-delete person.age;
-console.log(person);
+// delete person.greeting;
+// delete person.age;
+// console.log(person);
+
+//  constructor property
+
+let name = "Priya"; //->new string
+let age = 20; //->new number
+isAlive = true; //-> new Boolean
+console.log(name, age, isAlive);
