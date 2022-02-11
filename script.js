@@ -328,7 +328,22 @@
 
 //  constructor property
 
-let name = "Priya"; //->new string
-let age = 20; //->new number
-isAlive = true; //-> new Boolean
-console.log(name, age, isAlive);
+// let name = "Priya"; //->new string
+// let age = 20; //->new number
+// isAlive = true; //-> new Boolean
+// console.log(name, age, isAlive);
+
+// Primitive value types
+
+let x = 10;
+let y = x;
+
+x = 20;
+
+// Reference Type
+
+let x1 = {
+  value: 10,
+};
+let y = x1;
+x1.value = 20;
