@@ -335,15 +335,26 @@
 
 // Primitive value types
 
-let x = 10;
-let y = x;
+// let x = 10;
+// let y = x;
 
-x = 20;
+// x = 20;
 
 // Reference Type
 
-let x1 = {
-  value: 10,
+// let x1 = {
+//   value: 10,
+// };
+// let y = x1;
+// x1.value = 20;
+
+// primitive value type
+
+let cartObj = {
+  value: 5,
 };
-let y = x1;
-x1.value = 20;
+function updateCart(cart) {
+  cart.value++;
+}
+updateCart(cartObj);
+console.log("carts available:" + cartObj);
