@@ -511,3 +511,12 @@ console.log(colors);
 // splice
 colors.splice(3, 4, "Green", "Brown");
 console.log(colors);
+
+// Finding elements in JavaScript Array
+
+console.log(colors.indexOf("Yellow"));
+
+console.log(colors.indexOf("brown") !== -1);
+
+console.log(colors.includes("Violet"));
+console.log(colors.includes("Green"));
