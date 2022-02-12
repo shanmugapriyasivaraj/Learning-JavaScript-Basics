@@ -350,11 +350,28 @@
 
 // primitive value type
 
-let cartObj = {
-  value: 5,
+// let cartObj = {
+//   value: 5,
+// };
+// function updateCart(cart) {
+//   cart.value++;
+// }
+// updateCart(cartObj);
+// console.log("carts available:" + cartObj);
+
+// Enumerating properties of an object
+
+const user = {
+  name: "Priya",
+  getFullName() {
+    console.log(`My name is ${this.name}`);
+  },
 };
-function updateCart(cart) {
-  cart.value++;
+
+for (let key in user) console.log(key, user[key]);
+
+for (let key of object.keys(user)) {
+  console.log(key, user[key]);
 }
-updateCart(cartObj);
-console.log("carts available:" + cartObj);
+
+for (let key of object.entries(user)) console.log(entry);
