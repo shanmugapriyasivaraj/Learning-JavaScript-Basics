@@ -361,17 +361,64 @@
 
 // Enumerating properties of an object
 
+// const user = {
+//   name: "Priya",
+//   getFullName() {
+//     console.log(`My name is ${this.name}`);
+//   },
+// };
+
+// for (let key in user) console.log(key, user[key]);
+
+// for (let key of Object.keys(user)) {
+//   console.log(key, user[key]);
+// }
+
+// for (let key of Object.entries(user)) console.log(key);
+
+//clone
+
 const user = {
   name: "Priya",
   getFullName() {
     console.log(`My name is ${this.name}`);
   },
 };
+let another = user;
+console.log(another);
 
-for (let key in user) console.log(key, user[key]);
+// cloning using forLoop
 
-for (let key of object.keys(user)) {
-  console.log(key, user[key]);
+const user = {
+  name: "Priya",
+  getFullName() {
+    console.log(`My name is ${this.name}`);
+  },
+};
+let another = {};
+for (let key in user) {
+  another["name"] = user["name"];
+  another["key"] = user["key"];
 }
 
-for (let key of object.entries(user)) console.log(entry);
+// cloning using object.keys
+const user = {
+  name: "Priya",
+  getFullName() {
+    console.log(`My name is ${this.name}`);
+  },
+};
+let another = Object.assign({}, user);
+console.log(another);
+
+// Spread Operator
+const user = {
+  name: "Priya",
+  getFullName() {
+    console.log(`My name is ${this.name}`);
+  },
+};
+let another = {
+  ...user,
+};
+console.log(another);
