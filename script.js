@@ -481,3 +481,13 @@ console.log(sentence.substring(6));
 
 console.log(firstName.toLowerCase());
 console.log(firstName.toUpperCase());
+
+// Date Parameters
+
+const date = Date();
+const now = new Date();
+const anotherDate = new Date("March 28 2002");
+
+console.log(date);
+console.log(now.getFullYear());
+console.log(anotherDate.getFullYear());
