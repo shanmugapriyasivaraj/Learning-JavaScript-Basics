@@ -491,3 +491,23 @@ const anotherDate = new Date("March 28 2002");
 console.log(date);
 console.log(now.getFullYear());
 console.log(anotherDate.getFullYear());
+
+// Adding element to JavaScript Array
+
+const colors = ["Black", "Blue", "Pink"];
+
+colors[5] = "White";
+
+console.log(colors);
+
+// push
+colors.push("Orange", "Red");
+console.log(colors);
+
+// unshift
+colors.unshift("White", "Yellow");
+console.log(colors);
+
+// splice
+colors.splice(3, 4, "Green", "Brown");
+console.log(colors);
