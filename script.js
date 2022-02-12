@@ -425,23 +425,59 @@
 
 // javascript inbuild objects
 
-console.log(Math.abs(-10));
+// console.log(Math.abs(-10));
 
-console.log(Math.ceil(0.05));
-console.log(Math.ceil(2.5));
+// console.log(Math.ceil(0.05));
+// console.log(Math.ceil(2.5));
 
-console.log(Math.random());
-console.log(Math.random() * (100 - 1) + 1);
+// console.log(Math.random());
+// console.log(Math.random() * (100 - 1) + 1);
 
-console.log(Math.round(1.5));
-console.log(Math.round(1.4));
+// console.log(Math.round(1.5));
+// console.log(Math.round(1.4));
 
-let marks = [85, 75, 15, 83, 20];
+// let marks = [85, 75, 15, 83, 20];
 
-let result = Math.max(...marks);
-console.log("Maximum Mark:" + result);
+// let result = Math.max(...marks);
+// console.log("Maximum Mark:" + result);
 
-let marks1 = [85, 75, 15, 83, 20];
+// let marks1 = [85, 75, 15, 83, 20];
 
-let result1 = Math.min(...marks1);
-console.log("Minimum Mark:" + result1);
+// let result1 = Math.min(...marks1);
+// console.log("Minimum Mark:" + result1);
+
+// string object
+
+let firstName = "Priya";
+let lastName = "Sivaraj";
+
+const firstName1 = new String("Priya");
+
+console.log(typeof firstName);
+console.log(typeof firstName1);
+
+console.log(firstName.length);
+console.log(firstName.charAt(2));
+
+console.log(firstName.concat(" ", lastName));
+
+console.log(firstName.includes("Pri"));
+console.log(firstName.includes("hi"));
+
+console.log(firstName.startsWith("Pr"));
+console.log(firstName.endsWith("Pr"));
+
+console.log(firstName.indexOf("y"));
+
+console.log(firstName.repeat(3));
+
+console.log(firstName.replace("Priya", "Anu"));
+
+console.log(firstName.slice(1));
+
+let sentence = "hello world";
+console.log(sentence.split(" ", 1));
+console.log(sentence.substring(6));
+
+console.log(firstName.toLowerCase());
+console.log(firstName.toUpperCase());
