@@ -606,20 +606,43 @@
 
 // iterating elements
 
-const dailyRoutine = ["wakeup", "Eat", "Sleep"];
+// const dailyRoutine = ["wakeup", "Eat", "Sleep"];
 
-// for-of
-for (let routine of dailyRoutine) {
-  console.log(routine);
-}
+// // for-of
+// for (let routine of dailyRoutine) {
+//   console.log(routine);
+// }
 
-// for-in
-for (let routine in dailyRoutine) {
-  console.log(routine, dailyRoutine[routine]);
-}
+// // for-in
+// for (let routine in dailyRoutine) {
+//   console.log(routine, dailyRoutine[routine]);
+// }
 
 // for-Each
 
-dailyRoutine.forEach(function (routine) {
-  console.log(routine);
-});
+// dailyRoutine.forEach(function (routine) {
+//   console.log(routine);
+// });
+
+// join
+
+const dailyRoutine = ["wakeup", "Eat", "Sleep"];
+
+let dailyRoutines = dailyRoutine.join(", ");
+
+console.log(dailyRoutines);
+
+// split
+let fullName = "Priya sivaraj";
+let userName = fullName.split(" ");
+let firstName = userName[0];
+let lastName = userName[1];
+console.log(`My first name is ${firstName} and lastname is ${lastName}`);
+
+let postTitle = "This is my post";
+
+let postSlug = postTitle.split(" ");
+let finalSlug = postSlug.join("-");
+
+console.log(postSlug);
+console.log(finalSlug);
