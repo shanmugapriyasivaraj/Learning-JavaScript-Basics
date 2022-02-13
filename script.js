@@ -550,3 +550,16 @@ let result = products.find((product) => {
   product.item === "headphones";
 });
 console.log(result);
+
+// Removing element in the array
+
+const number = [1, 2, 3, 4, 5, 6];
+
+number.pop();
+console.log(number);
+
+number.shift();
+console.log(number);
+
+number.splice(1, 1);
+console.log(number);
