@@ -588,11 +588,11 @@
 
 // combining arrays
 
-const shopping_cart = ["Maggi", "beans", "Masala"];
-const additional_cart = ["oil", "Salt"];
+// const shopping_cart = ["Maggi", "beans", "Masala"];
+// const additional_cart = ["oil", "Salt"];
 // Spread Operator
-let recipe = [...shopping_cart, ...additional_cart, "Noodles"];
-console.log(recipe);
+// let recipe = [...shopping_cart, ...additional_cart, "Noodles"];
+// console.log(recipe);
 
 // let recipe = shopping_cart.concat(additional_cart);
 
@@ -603,3 +603,23 @@ console.log(recipe);
 
 // console.log(recipe);
 // console.log(extractedInfo);
+
+// iterating elements
+
+const dailyRoutine = ["wakeup", "Eat", "Sleep"];
+
+// for-of
+for (let routine of dailyRoutine) {
+  console.log(routine);
+}
+
+// for-in
+for (let routine in dailyRoutine) {
+  console.log(routine, dailyRoutine[routine]);
+}
+
+// for-Each
+
+dailyRoutine.forEach(function (routine) {
+  console.log(routine);
+});
