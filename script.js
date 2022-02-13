@@ -520,3 +520,22 @@ console.log(colors.indexOf("brown") !== -1);
 
 console.log(colors.includes("Violet"));
 console.log(colors.includes("Green"));
+
+// Find elements in reference array
+// const products = [
+//   { id: 1, item: "smartphones", quantity: 2 },
+//   { id: 2, item: "headphones", quantity: 1 },
+// ];
+// let result = products.find(function (product) {
+//   return product.item === "headphones";
+// });
+// console.log(result);
+
+const products = [
+  { id: 1, item: "smartphones", quantity: 2 },
+  { id: 2, item: "headphones", quantity: 1 },
+];
+let result = products.findIndex(function (product) {
+  return product.item === "headphones";
+});
+console.log(result);
