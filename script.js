@@ -547,6 +547,6 @@ const products = [
   { id: 2, item: "headphones", quantity: 1 },
 ];
 let result = products.find((product) => {
-  return product.item === "headphones";
+  product.item === "headphones";
 });
 console.log(result);
