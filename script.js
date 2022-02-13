@@ -448,139 +448,155 @@
 
 // string object
 
-let firstName = "Priya";
-let lastName = "Sivaraj";
+// let firstName = "Priya";
+// let lastName = "Sivaraj";
 
-const firstName1 = new String("Priya");
+// const firstName1 = new String("Priya");
 
-console.log(typeof firstName);
-console.log(typeof firstName1);
+// console.log(typeof firstName);
+// console.log(typeof firstName1);
 
-console.log(firstName.length);
-console.log(firstName.charAt(2));
+// console.log(firstName.length);
+// console.log(firstName.charAt(2));
 
-console.log(firstName.concat(" ", lastName));
+// console.log(firstName.concat(" ", lastName));
 
-console.log(firstName.includes("Pri"));
-console.log(firstName.includes("hi"));
+// console.log(firstName.includes("Pri"));
+// console.log(firstName.includes("hi"));
 
-console.log(firstName.startsWith("Pr"));
-console.log(firstName.endsWith("Pr"));
+// console.log(firstName.startsWith("Pr"));
+// console.log(firstName.endsWith("Pr"));
 
-console.log(firstName.indexOf("y"));
+// console.log(firstName.indexOf("y"));
 
-console.log(firstName.repeat(3));
+// console.log(firstName.repeat(3));
 
-console.log(firstName.replace("Priya", "Anu"));
+// console.log(firstName.replace("Priya", "Anu"));
 
-console.log(firstName.slice(1));
+// console.log(firstName.slice(1));
 
-let sentence = "hello world";
-console.log(sentence.split(" ", 1));
-console.log(sentence.substring(6));
+// let sentence = "hello world";
+// console.log(sentence.split(" ", 1));
+// console.log(sentence.substring(6));
 
-console.log(firstName.toLowerCase());
-console.log(firstName.toUpperCase());
+// console.log(firstName.toLowerCase());
+// console.log(firstName.toUpperCase());
 
-// Date Parameters
+// // Date Parameters
 
-const date = Date();
-const now = new Date();
-const anotherDate = new Date("March 28 2002");
+// const date = Date();
+// const now = new Date();
+// const anotherDate = new Date("March 28 2002");
 
-console.log(date);
-console.log(now.getFullYear());
-console.log(anotherDate.getFullYear());
+// console.log(date);
+// console.log(now.getFullYear());
+// console.log(anotherDate.getFullYear());
 
-// Adding element to JavaScript Array
+// // Adding element to JavaScript Array
 
-const colors = ["Black", "Blue", "Pink"];
+// const colors = ["Black", "Blue", "Pink"];
 
-colors[5] = "White";
+// colors[5] = "White";
 
-console.log(colors);
+// console.log(colors);
 
-// push
-colors.push("Orange", "Red");
-console.log(colors);
+// // push
+// colors.push("Orange", "Red");
+// console.log(colors);
 
-// unshift
-colors.unshift("White", "Yellow");
-console.log(colors);
+// // unshift
+// colors.unshift("White", "Yellow");
+// console.log(colors);
 
-// splice
-colors.splice(3, 4, "Green", "Brown");
-console.log(colors);
+// // splice
+// colors.splice(3, 4, "Green", "Brown");
+// console.log(colors);
 
-// Finding elements in JavaScript Array
+// // Finding elements in JavaScript Array
 
-console.log(colors.indexOf("Yellow"));
+// console.log(colors.indexOf("Yellow"));
 
-console.log(colors.indexOf("brown") !== -1);
+// console.log(colors.indexOf("brown") !== -1);
 
-console.log(colors.includes("Violet"));
-console.log(colors.includes("Green"));
+// console.log(colors.includes("Violet"));
+// console.log(colors.includes("Green"));
 
-// Find elements in reference array
-// const products = [
-//   { id: 1, item: "smartphones", quantity: 2 },
-//   { id: 2, item: "headphones", quantity: 1 },
-// ];
-// let result = products.find(function (product) {
-//   return product.item === "headphones";
-// });
-// console.log(result);
+// // Find elements in reference array
+// // const products = [
+// //   { id: 1, item: "smartphones", quantity: 2 },
+// //   { id: 2, item: "headphones", quantity: 1 },
+// // ];
+// // let result = products.find(function (product) {
+// //   return product.item === "headphones";
+// // });
+// // console.log(result);
 
-// const products = [
-//   { id: 1, item: "smartphones", quantity: 2 },
-//   { id: 2, item: "headphones", quantity: 1 },
-// ];
-// let result = products.findIndex(function (product) {
-//   return product.item === "headphones";
-// });
-// console.log(result);
+// // const products = [
+// //   { id: 1, item: "smartphones", quantity: 2 },
+// //   { id: 2, item: "headphones", quantity: 1 },
+// // ];
+// // let result = products.findIndex(function (product) {
+// //   return product.item === "headphones";
+// // });
+// // console.log(result);
 
 // Arrow function
 
-const products = [
-  { id: 1, item: "smartphones", quantity: 2 },
-  { id: 2, item: "headphones", quantity: 1 },
-];
-let result = products.find((product) => {
-  product.item === "headphones";
-});
-console.log(result);
+// const products = [
+//   { id: 1, item: "smartphones", quantity: 2 },
+//   { id: 2, item: "headphones", quantity: 1 },
+// ];
+// let result = products.find((product) => {
+//   product.item === "headphones";
+// });
+// console.log(result);
 
-// Removing element in the array
+// // Removing element in the array
 
-// const number = [1, 2, 3, 4, 5, 6];
+// // const number = [1, 2, 3, 4, 5, 6];
 
-// number.pop();
-// console.log(number);
+// // number.pop();
+// // console.log(number);
 
-// number.shift();
-// console.log(number);
+// // number.shift();
+// // console.log(number);
 
-// number.splice(1, 1);
-// console.log(number);
+// // number.splice(1, 1);
+// // console.log(number);
 
-// Emptying an javascript array
+// // Emptying an javascript array
 
-let numbers = [1, 2, 3, 4, 5.6];
+// let numbers = [1, 2, 3, 4, 5.6];
 
-let another_numbers = numbers;
-
-// numbers = [];
-
+// let another_numbers = numbers;
 // console.log(numbers);
 
-// numbers.length = 0;
+// // numbers = [];
+
+// // console.log(numbers);
+
+// // numbers.length = 0;
+// // console.log(numbers);
+
+// // numbers.splice(0, numbers.length);
+// // console.log(numbers);
+
+// while (numbers.length) {
+//   numbers.pop();
+// }
 // console.log(numbers);
 
-// numbers.splice(0, numbers.length);
-// console.log(numbers);
+// combining arrays
 
-while (numbers.length) {
-  numbers.pop();
-}
-console.log(numbers);
+const shopping_cart = ["Maggi", "beans", "Masala"];
+const additional_cart = ["oil", "Salt"];
+
+let recipe = shopping_cart.concat(additional_cart);
+
+console.log(recipe);
+
+// Extract arrays
+let extractedInfo = recipe.slice(1, 2);
+
+console.log(recipe);
+console.log(extractedInfo);
