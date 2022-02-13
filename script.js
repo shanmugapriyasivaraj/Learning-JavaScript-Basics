@@ -553,13 +553,34 @@ console.log(result);
 
 // Removing element in the array
 
-const number = [1, 2, 3, 4, 5, 6];
+// const number = [1, 2, 3, 4, 5, 6];
 
-number.pop();
-console.log(number);
+// number.pop();
+// console.log(number);
 
-number.shift();
-console.log(number);
+// number.shift();
+// console.log(number);
 
-number.splice(1, 1);
-console.log(number);
+// number.splice(1, 1);
+// console.log(number);
+
+// Emptying an javascript array
+
+let numbers = [1, 2, 3, 4, 5.6];
+
+let another_numbers = numbers;
+
+// numbers = [];
+
+// console.log(numbers);
+
+// numbers.length = 0;
+// console.log(numbers);
+
+// numbers.splice(0, numbers.length);
+// console.log(numbers);
+
+while (numbers.length) {
+  numbers.pop();
+}
+console.log(numbers);
