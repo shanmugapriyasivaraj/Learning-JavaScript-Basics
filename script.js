@@ -590,13 +590,16 @@
 
 const shopping_cart = ["Maggi", "beans", "Masala"];
 const additional_cart = ["oil", "Salt"];
-
-let recipe = shopping_cart.concat(additional_cart);
-
+// Spread Operator
+let recipe = [...shopping_cart, ...additional_cart, "Noodles"];
 console.log(recipe);
 
-// Extract arrays
-let extractedInfo = recipe.slice(1, 2);
+// let recipe = shopping_cart.concat(additional_cart);
 
-console.log(recipe);
-console.log(extractedInfo);
+// console.log(recipe);
+
+// // Extract arrays
+// let extractedInfo = recipe.slice(1, 2);
+
+// console.log(recipe);
+// console.log(extractedInfo);
