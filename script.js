@@ -531,11 +531,22 @@ console.log(colors.includes("Green"));
 // });
 // console.log(result);
 
+// const products = [
+//   { id: 1, item: "smartphones", quantity: 2 },
+//   { id: 2, item: "headphones", quantity: 1 },
+// ];
+// let result = products.findIndex(function (product) {
+//   return product.item === "headphones";
+// });
+// console.log(result);
+
+// Arrow function
+
 const products = [
   { id: 1, item: "smartphones", quantity: 2 },
   { id: 2, item: "headphones", quantity: 1 },
 ];
-let result = products.findIndex(function (product) {
+let result = products.find((product) => {
   return product.item === "headphones";
 });
 console.log(result);
