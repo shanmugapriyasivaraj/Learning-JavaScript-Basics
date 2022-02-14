@@ -626,23 +626,29 @@
 
 // join
 
-const dailyRoutine = ["wakeup", "Eat", "Sleep"];
+// const dailyRoutine = ["wakeup", "Eat", "Sleep"];
 
-let dailyRoutines = dailyRoutine.join(", ");
+// let dailyRoutines = dailyRoutine.join(", ");
 
-console.log(dailyRoutines);
+// console.log(dailyRoutines);
 
-// split
-let fullName = "Priya sivaraj";
-let userName = fullName.split(" ");
-let firstName = userName[0];
-let lastName = userName[1];
-console.log(`My first name is ${firstName} and lastname is ${lastName}`);
+// // split
+// let fullName = "Priya sivaraj";
+// let userName = fullName.split(" ");
+// let firstName = userName[0];
+// let lastName = userName[1];
+// console.log(`My first name is ${firstName} and lastname is ${lastName}`);
 
-let postTitle = "This is my post";
+// let postTitle = "This is my post";
 
-let postSlug = postTitle.split(" ");
-let finalSlug = postSlug.join("-");
+// let postSlug = postTitle.split(" ");
+// let finalSlug = postSlug.join("-");
 
-console.log(postSlug);
-console.log(finalSlug);
+// console.log(postSlug);
+// console.log(finalSlug);
+
+// sorting ascending
+
+const numbers = [8, 6, 2];
+numbers.sort();
+console.log(numbers);
