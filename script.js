@@ -649,6 +649,18 @@
 
 // sorting ascending
 
-const numbers = [8, 6, 2];
-numbers.sort();
-console.log(numbers);
+// const numbers = [8, 6, 2];
+// numbers.sort();
+// console.log(numbers);
+
+// Testing a javascript array
+
+const queue_by_age = [24, 32, 45];
+
+let isAllowed = queue_by_age.every(function (value, index, array) {
+  //   console.log(`value: ${value}`);
+  //   console.log("index", index);
+  //   console.log("array", array);
+  return value >= 18;
+});
+console.log("isAllowed:", isAllowed);
