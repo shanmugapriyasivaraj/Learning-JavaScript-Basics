@@ -655,12 +655,21 @@
 
 // Testing a javascript array
 
-const queue_by_age = [24, 32, 45];
+// const queue_by_age = [24, 32, 45];
 
-let isAllowed = queue_by_age.every(function (value, index, array) {
-  //   console.log(`value: ${value}`);
-  //   console.log("index", index);
-  //   console.log("array", array);
-  return value >= 18;
+// let isAllowed = queue_by_age.every(function (value, index, array) {
+//   //   console.log(`value: ${value}`);
+//   //   console.log("index", index);
+//   //   console.log("array", array);
+//   return value >= 18;
+// });
+// console.log("isAllowed:", isAllowed);
+
+// Testing odd or even
+
+const numbers = [2, 4, 6, 8];
+let isEven = numbers.every(function (value) {
+  return value % 2 === 0;
 });
-console.log("isAllowed:", isAllowed);
+
+console.log(isEven);
